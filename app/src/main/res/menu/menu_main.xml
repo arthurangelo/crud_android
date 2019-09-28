@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.crud.activity.MainActivity">
+    <item
+        android:id="@+id/menu_logar"
+        android:icon="@drawable/ic_action_menu_logar"
+        android:orderInCategory="100"
+        android:title="Logar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_cadastro"
+        android:icon="@drawable/ic_action_menu_cadastro"
+        android:orderInCategory="101"
+        android:title="Cadastro"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_todos"
+        android:icon="@drawable/ic_action_menu_todos"
+        android:orderInCategory="103"
+        android:title="Todos" />
+</menu>
